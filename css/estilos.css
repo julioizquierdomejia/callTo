@@ -2,3 +2,25 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+ul{
+	margin: 0;
+	padding: 0;	
+	list-style: none;
+	width: 100%;
+	background-color: #ccc;
+	height: 32px;
+	overflow: hidden;
+}
+
+li{
+	display: inline-block;
+	width: 24%;
+	height: 100%;
+	background-color: gray;
+	text-align: center;
+}
+
+li a{
+	display: block;
+}
